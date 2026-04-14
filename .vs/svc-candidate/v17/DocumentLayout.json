@@ -1,7 +1,76 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|solutionrelative:candidateservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.infrastructure\\entities\\candidateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|solutionrelative:candidateservice.infrastructure\\entities\\candidateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|solutionrelative:candidateservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.infrastructure\\persistence\\candidatedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|solutionrelative:candidateservice.infrastructure\\persistence\\candidatedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.infrastructure\\persistence\\configurations\\candidateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80033DB3-5889-4414-861A-FFC7AD031FBB}|CandidateService.Infrastructure\\CandidateService.Infrastructure.csproj|solutionrelative:candidateservice.infrastructure\\persistence\\configurations\\candidateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.domain\\valueobjects\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|solutionrelative:candidateservice.domain\\valueobjects\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.domain\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|solutionrelative:candidateservice.domain\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.domain\\valueobjects\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|solutionrelative:candidateservice.domain\\valueobjects\\fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.domain\\valueobjects\\userid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|solutionrelative:candidateservice.domain\\valueobjects\\userid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.domain\\valueobjects\\candidateid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|solutionrelative:candidateservice.domain\\valueobjects\\candidateid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.domain\\entities\\aggregates\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E6054D-B88B-4EFD-8582-BC276416E2D8}|CandidateService.Domain\\CandidateService.Domain.csproj|solutionrelative:candidateservice.domain\\entities\\aggregates\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.api\\mappings\\newcandidatemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|solutionrelative:candidateservice.api\\mappings\\newcandidatemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D44539-70FF-4E16-A1A4-57B2B09D991C}|CandidateService.Application\\CandidateService.Application.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.application\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D44539-70FF-4E16-A1A4-57B2B09D991C}|CandidateService.Application\\CandidateService.Application.csproj|solutionrelative:candidateservice.application\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D44539-70FF-4E16-A1A4-57B2B09D991C}|CandidateService.Application\\CandidateService.Application.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.application\\abstract services\\icandidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D44539-70FF-4E16-A1A4-57B2B09D991C}|CandidateService.Application\\CandidateService.Application.csproj|solutionrelative:candidateservice.application\\abstract services\\icandidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D44539-70FF-4E16-A1A4-57B2B09D991C}|CandidateService.Application\\CandidateService.Application.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.application\\models\\newcandidatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D44539-70FF-4E16-A1A4-57B2B09D991C}|CandidateService.Application\\CandidateService.Application.csproj|solutionrelative:candidateservice.application\\models\\newcandidatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.api\\models\\newcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|solutionrelative:candidateservice.api\\models\\newcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|c:\\users\\lfodor\\onedrive - endava\\documents\\dissertationrepo\\svc-candidate\\candidateservice.api\\modelvalidators\\newcandidatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D4D472D-2630-4245-8869-2416F916CEF9}|CandidateService.Api\\CandidateService.Api.csproj|solutionrelative:candidateservice.api\\modelvalidators\\newcandidatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +78,229 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "CandidateService.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "CandidateService.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T17:15:44.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CandidateEntity.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\Entities\\CandidateEntity.cs",
+              "RelativeDocumentMoniker": "CandidateService.Infrastructure\\Entities\\CandidateEntity.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\Entities\\CandidateEntity.cs",
+              "RelativeToolTip": "CandidateService.Infrastructure\\Entities\\CandidateEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T17:13:13.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CandidateConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\Persistence\\Configurations\\CandidateConfiguration.cs",
+              "RelativeDocumentMoniker": "CandidateService.Infrastructure\\Persistence\\Configurations\\CandidateConfiguration.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\Persistence\\Configurations\\CandidateConfiguration.cs",
+              "RelativeToolTip": "CandidateService.Infrastructure\\Persistence\\Configurations\\CandidateConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T17:10:33.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CandidateDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\Persistence\\CandidateDbContext.cs",
+              "RelativeDocumentMoniker": "CandidateService.Infrastructure\\Persistence\\CandidateDbContext.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Infrastructure\\Persistence\\CandidateDbContext.cs",
+              "RelativeToolTip": "CandidateService.Infrastructure\\Persistence\\CandidateDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T17:07:59.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserId.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\UserId.cs",
+              "RelativeDocumentMoniker": "CandidateService.Domain\\ValueObjects\\UserId.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\UserId.cs",
+              "RelativeToolTip": "CandidateService.Domain\\ValueObjects\\UserId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:56:01.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhoneNumber.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\PhoneNumber.cs",
+              "RelativeDocumentMoniker": "CandidateService.Domain\\ValueObjects\\PhoneNumber.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\PhoneNumber.cs",
+              "RelativeToolTip": "CandidateService.Domain\\ValueObjects\\PhoneNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:55:31.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FullName.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\FullName.cs",
+              "RelativeDocumentMoniker": "CandidateService.Domain\\ValueObjects\\FullName.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\FullName.cs",
+              "RelativeToolTip": "CandidateService.Domain\\ValueObjects\\FullName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:55:16.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\Location.cs",
+              "RelativeDocumentMoniker": "CandidateService.Domain\\ValueObjects\\Location.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\Location.cs",
+              "RelativeToolTip": "CandidateService.Domain\\ValueObjects\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:54:29.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CandidateId.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\CandidateId.cs",
+              "RelativeDocumentMoniker": "CandidateService.Domain\\ValueObjects\\CandidateId.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\ValueObjects\\CandidateId.cs",
+              "RelativeToolTip": "CandidateService.Domain\\ValueObjects\\CandidateId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:54:19.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\Entities\\Aggregates\\Candidate.cs",
+              "RelativeDocumentMoniker": "CandidateService.Domain\\Entities\\Aggregates\\Candidate.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\Entities\\Aggregates\\Candidate.cs",
+              "RelativeToolTip": "CandidateService.Domain\\Entities\\Aggregates\\Candidate.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:53:35.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewCandidateMapping.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\Mappings\\NewCandidateMapping.cs",
+              "RelativeDocumentMoniker": "CandidateService.Api\\Mappings\\NewCandidateMapping.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\Mappings\\NewCandidateMapping.cs",
+              "RelativeToolTip": "CandidateService.Api\\Mappings\\NewCandidateMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:42:45.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICandidateService.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\Abstract Services\\ICandidateService.cs",
+              "RelativeDocumentMoniker": "CandidateService.Application\\Abstract Services\\ICandidateService.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\Abstract Services\\ICandidateService.cs",
+              "RelativeToolTip": "CandidateService.Application\\Abstract Services\\ICandidateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:38:46.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CandidateService.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\Services\\CandidateService.cs",
+              "RelativeDocumentMoniker": "CandidateService.Application\\Services\\CandidateService.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\Services\\CandidateService.cs",
+              "RelativeToolTip": "CandidateService.Application\\Services\\CandidateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:38:11.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NewCandidateModel.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\Models\\NewCandidateModel.cs",
+              "RelativeDocumentMoniker": "CandidateService.Application\\Models\\NewCandidateModel.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\Models\\NewCandidateModel.cs",
+              "RelativeToolTip": "CandidateService.Application\\Models\\NewCandidateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:33:51.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NewCandidateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\ModelValidators\\NewCandidateValidator.cs",
+              "RelativeDocumentMoniker": "CandidateService.Api\\ModelValidators\\NewCandidateValidator.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\ModelValidators\\NewCandidateValidator.cs",
+              "RelativeToolTip": "CandidateService.Api\\ModelValidators\\NewCandidateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:29:44.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NewCandidate.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\Models\\NewCandidate.cs",
+              "RelativeDocumentMoniker": "CandidateService.Api\\Models\\NewCandidate.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\Models\\NewCandidate.cs",
+              "RelativeToolTip": "CandidateService.Api\\Models\\NewCandidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:25:56.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CandidateService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\Program.cs",
+              "RelativeToolTip": "CandidateService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:23:40.191Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
