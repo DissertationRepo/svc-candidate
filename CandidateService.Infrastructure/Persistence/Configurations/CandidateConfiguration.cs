@@ -22,10 +22,20 @@ public sealed class CandidateEntityConfiguration : IEntityTypeConfiguration<Cand
         builder.HasIndex(x => x.UserId)
             .IsUnique();
 
-        builder.Property(x => x.FullName)
+        builder.Property(x => x.FirstName)
             .IsRequired()
             .HasMaxLength(200)
-            .HasColumnName("full_name");
+            .HasColumnName("first_name");
+
+        builder.Property(x => x.LastName)
+            .IsRequired()
+            .HasMaxLength(200)
+            .HasColumnName("last_name");
+
+        builder.Property(x => x.Email)
+            .IsRequired()
+            .HasMaxLength(55)
+            .HasColumnName("email");
 
         builder.Property(x => x.Phone)
             .HasMaxLength(30)
@@ -46,5 +56,10 @@ public sealed class CandidateEntityConfiguration : IEntityTypeConfiguration<Cand
         builder.Property(x => x.UpdatedAt)
             .IsRequired()
             .HasColumnName("updated_at");
+
+        builder.HasMany(x => x.Skills)
+                    .WithOne(x => x.Candidate)
+                    .HasForeignKey(x => x.CandidateId)
+                    .OnDelete(DeleteBehavior.Cascade);
     }
 }

@@ -9,13 +9,13 @@ namespace CandidateService.Api.Mappings
     {
         public NewCandidateMapping() 
         {
-            CreateMap<Models.NewCandidate, Application.Models.NewCandidateModel>()
+            CreateMap<Models.NewCandidate, Application.Models.CandidateModel>()
                 .ConstructUsing(src => CreateApplicationNewCandidateProfile(src));
         }
 
-        private NewCandidateModel CreateApplicationNewCandidateProfile(NewCandidate src)
+        private CandidateModel CreateApplicationNewCandidateProfile(NewCandidate src)
         {
-            return new NewCandidateModel(
+            return new CandidateModel(
                 userId: src.UserId,
                 firstName: src.FirstName,
                 lastName: src.LastName,

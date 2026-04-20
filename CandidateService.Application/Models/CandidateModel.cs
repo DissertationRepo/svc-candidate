@@ -1,6 +1,6 @@
 ﻿namespace CandidateService.Application.Models
 {
-    public record NewCandidateModel 
+    public record CandidateModel 
     {
         private string _userId;
         private string _lastName;
@@ -8,7 +8,7 @@
         private string _email;
         private string _phoneNumber;
 
-        public NewCandidateModel(string userId, string firstName, string lastName, string email, string phoneNumber)
+        public CandidateModel(string userId, string firstName, string lastName, string email, string phoneNumber)
         {
             _userId = userId ?? throw new ArgumentNullException(nameof(UserId));
             _firstName = firstName ?? throw new ArgumentNullException(nameof(FirstName));

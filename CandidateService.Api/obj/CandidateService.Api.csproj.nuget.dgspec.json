@@ -121,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -152,7 +152,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\CandidateService.Domain.csproj": {
+                "projectPath": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\CandidateService.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -224,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -327,7 +331,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -359,8 +363,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\CandidateService.Domain.csproj": {
-                "projectPath": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Domain\\CandidateService.Domain.csproj"
+              "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\CandidateService.Application.csproj": {
+                "projectPath": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Application\\CandidateService.Application.csproj"
               }
             }
           }
@@ -434,7 +438,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -28,10 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CandidateService.Application\CandidateService.Application.csproj" />
     <ProjectReference Include="..\CandidateService.Infrastructure\CandidateService.Infrastructure.csproj" />
   </ItemGroup>
