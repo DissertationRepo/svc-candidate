@@ -12,6 +12,7 @@ public sealed class CandidateDbContext : DbContext
 
     public DbSet<CandidateEntity> Candidates => Set<CandidateEntity>();
     public DbSet<CandidateSkillEntity> CandidateSkills => Set<CandidateSkillEntity>();
+    public DbSet<CandidateExperienceEntity> CandidateExperiences => Set<CandidateExperienceEntity>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

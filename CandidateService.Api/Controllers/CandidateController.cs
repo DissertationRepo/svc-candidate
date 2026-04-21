@@ -12,12 +12,14 @@ namespace CandidateService.Api.Controllers
     {
         private readonly ICandidateService _candidateService;
         private readonly ICandidateSkillService _candidateSkillService;
+        private readonly ICandidateExperienceService _candidateExperienceService;
         private readonly IMapper _mapper;
 
-        public CandidateController(ICandidateService candidateService, ICandidateSkillService candidateSkillService, IMapper mapper)
+        public CandidateController(ICandidateService candidateService, ICandidateSkillService candidateSkillService, ICandidateExperienceService candidateExperienceService, IMapper mapper)
         {
             _candidateService = candidateService ?? throw new ArgumentNullException(nameof(candidateService));
             _candidateSkillService = candidateSkillService ?? throw new ArgumentNullException(nameof(candidateSkillService));
+            _candidateExperienceService = candidateExperienceService ?? throw new ArgumentNullException(nameof(candidateExperienceService));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
@@ -50,6 +52,14 @@ namespace CandidateService.Api.Controllers
         {
             var addCandidateSkillModel = _mapper.Map<Application.Models.CandidateSkillModel>(addCandidateSkill);
             await _candidateSkillService.AddCandidateSkillAsync(addCandidateSkillModel);
+            return Ok();
+        }
+
+        [HttpPost("experience/add")]
+        public async Task<IActionResult> AddCandidateExperience([FromBody] AddCandidateExperience addCandidateExperience)
+        {
+            var addCandidateExperienceModel = _mapper.Map<Application.Models.CandidateExperienceModel>(addCandidateExperience);
+            await _candidateExperienceService.AddCandidateExperience(addCandidateExperienceModel);
             return Ok();
         }
     }

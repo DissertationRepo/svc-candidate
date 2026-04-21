@@ -12,13 +12,16 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddValidatorsFromAssemblyContaining<NewCandidateValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<AddCandidateSkillValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<AddCandidateExperienceValidator>();
 builder.Services.AddFluentValidationAutoValidation();
 
 builder.Services.AddAutoMapper(
     typeof(CandidateService.Api.Mappings.NewCandidateMapping).Assembly,
     typeof(CandidateService.Infrastructure.Mappings.DomainCandidateMapping).Assembly,
     typeof(CandidateService.Api.Mappings.AddCandidateSkillMapping).Assembly,
-    typeof(CandidateService.Infrastructure.Mappings.DomainCandidateSkillMapping).Assembly
+    typeof(CandidateService.Infrastructure.Mappings.DomainCandidateSkillMapping).Assembly, 
+    typeof(CandidateService.Api.Mappings.AddCandidateExperienceMapping).Assembly,
+    typeof(CandidateService.Infrastructure.Mappings.DomainCandiateExperienceMapping).Assembly
     );
 
 var conString = builder.Configuration.GetConnectionString("CandidateDB") ??

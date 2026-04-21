@@ -14,6 +14,8 @@ namespace CandidateService.Infrastructure
             services.AddScoped<ICandidateService, Application.Services.CandidateService>();
             services.AddScoped<ICandidateSkillService, CandidateSkillService>();
             services.AddScoped<ICandidateSkillRepository, CandidateSkillRepository>();
+            services.AddScoped<ICandidateExperienceService, CandidateExperienceService>();
+            services.AddScoped<ICandidateExperienceRepository, CandidateExperienceRepository>();
             return services;
         }
     }

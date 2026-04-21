@@ -1,0 +1,38 @@
+﻿using AutoMapper;
+using CandidateService.Application.Abstract_Services;
+using CandidateService.Domain.Entities.ChildEntities;
+using CandidateService.Infrastructure.Entities;
+using CandidateService.Infrastructure.Persistence;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CandidateService.Infrastructure.Repository
+{
+    public class CandidateExperienceRepository : ICandidateExperienceRepository
+    {
+        private readonly CandidateDbContext _db;
+        private readonly IMapper _mapper;
+
+        public CandidateExperienceRepository(CandidateDbContext db, IMapper mapper)
+        {
+            _db = db ?? throw new ArgumentNullException(nameof(db));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+        }
+        public async Task AddExperienceAsync(CandidateExperience experience)
+        {
+            var entity = _mapper.Map<CandidateExperienceEntity>(experience);
+            try
+            {
+                await _db.CandidateExperiences.AddAsync(entity);
+                await _db.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while adding the candidate experience.", ex);
+            }
+        }
+    }
+}
