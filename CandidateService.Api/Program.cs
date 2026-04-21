@@ -21,7 +21,10 @@ builder.Services.AddAutoMapper(
     typeof(CandidateService.Api.Mappings.AddCandidateSkillMapping).Assembly,
     typeof(CandidateService.Infrastructure.Mappings.DomainCandidateSkillMapping).Assembly, 
     typeof(CandidateService.Api.Mappings.AddCandidateExperienceMapping).Assembly,
-    typeof(CandidateService.Infrastructure.Mappings.DomainCandiateExperienceMapping).Assembly
+    typeof(CandidateService.Infrastructure.Mappings.DomainCandiateExperienceMapping).Assembly,
+    typeof(CandidateService.Api.Mappings.ExperiencesResponseMapping).Assembly,
+    typeof(CandidateService.Api.Mappings.SkillsResponseMapping).Assembly,
+    typeof(CandidateService.Api.Mappings.DomainCandidateMapping).Assembly
     );
 
 var conString = builder.Configuration.GetConnectionString("CandidateDB") ??

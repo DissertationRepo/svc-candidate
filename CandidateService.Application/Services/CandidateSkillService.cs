@@ -1,5 +1,6 @@
 ﻿using CandidateService.Application.Abstract_Services;
 using CandidateService.Application.Models;
+using CandidateService.Domain.Entities.ChildEntities;
 
 namespace CandidateService.Application.Services
 {
@@ -21,6 +22,12 @@ namespace CandidateService.Application.Services
 
             await _candidateSkillRepository.AddCandidateSkillAsync(domainCandidateSkill);
 
+        }
+
+        public async Task<ICollection<CandidateSkill>> GetCandidateSkillsAsync(string candidateId)
+        {
+            var domainSkills = await _candidateSkillRepository.GetSkillsById(Guid.Parse(candidateId));
+            return domainSkills;
         }
     }
 }

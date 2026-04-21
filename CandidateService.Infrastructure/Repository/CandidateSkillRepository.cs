@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using CandidateService.Application.Abstract_Services;
 using CandidateService.Domain.Entities.ChildEntities;
+using CandidateService.Domain.ValueObjects;
 using CandidateService.Infrastructure.Entities;
 using CandidateService.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +35,27 @@ namespace CandidateService.Application.Services
             {
                 throw new Exception("An error occurred while adding the candidate skill.", ex);
             }
+        }
+
+        public async Task<ICollection<CandidateSkill>> GetSkillsById(Guid candidateId)
+        {
+            var skillEntities = await _db.CandidateSkills.Where(s => s.CandidateId == candidateId).ToListAsync();
+            List<CandidateSkill> skills = new List<CandidateSkill>();
+            foreach (var skill in skillEntities)
+            {
+                skills.Add(
+                    Domain.Entities.ChildEntities.CandidateSkill.Load(
+                        skill.Id,
+                        new CandidateId(skill.CandidateId),
+                        skill.Name,
+                        skill.Level,
+                        skill.YearsOfExperience,
+                        skill.CreatedAt
+                        )
+                    );
+            }
+
+            return skills;
         }
     }
 }

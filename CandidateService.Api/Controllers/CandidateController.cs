@@ -55,12 +55,28 @@ namespace CandidateService.Api.Controllers
             return Ok();
         }
 
+        [HttpGet("skills/{candidateId}")]
+        public async Task<ICollection<SkillsResponse>> GetCandidateSkills(string candidateId)
+        {
+            var domainSkills = await _candidateSkillService.GetCandidateSkillsAsync(candidateId);
+            var skills = _mapper.Map<ICollection<SkillsResponse>>(domainSkills);
+            return skills;
+        }
+
         [HttpPost("experience/add")]
         public async Task<IActionResult> AddCandidateExperience([FromBody] AddCandidateExperience addCandidateExperience)
         {
             var addCandidateExperienceModel = _mapper.Map<Application.Models.CandidateExperienceModel>(addCandidateExperience);
-            await _candidateExperienceService.AddCandidateExperience(addCandidateExperienceModel);
+            await _candidateExperienceService.AddCandidateExperienceAsync(addCandidateExperienceModel);
             return Ok();
+        }
+
+        [HttpGet("experiences/{candidateId}")]
+        public async Task<ICollection<ExperiencesResponse>> GetCandidateExperiences(string candidateId)
+        {
+            var domainExperiences = await _candidateExperienceService.GetCandidateExperiencesAsync(candidateId);
+            var experiences = _mapper.Map<ICollection<ExperiencesResponse>>(domainExperiences);
+            return experiences;
         }
     }
 }

@@ -2,11 +2,6 @@
 using CandidateService.Application.Models;
 using CandidateService.Domain.Entities.ChildEntities;
 using CandidateService.Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CandidateService.Application.Services
 {
@@ -18,7 +13,7 @@ namespace CandidateService.Application.Services
         {
             _candidateExperienceRepository = candidateExperienceRepository;
         }
-        public async Task AddCandidateExperience(CandidateExperienceModel candidateExperienceModel)
+        public async Task AddCandidateExperienceAsync(CandidateExperienceModel candidateExperienceModel)
         {
             var domainCandidateExperience = CandidateExperience.Create(
                 new CandidateId(Guid.Parse(candidateExperienceModel.CandidateId)),
@@ -31,6 +26,11 @@ namespace CandidateService.Application.Services
 
             await _candidateExperienceRepository.AddExperienceAsync(domainCandidateExperience);
 
+        }
+
+        public async Task<ICollection<CandidateExperience>> GetCandidateExperiencesAsync(string candidateId)
+        {
+            return await _candidateExperienceRepository.GetExperienceByIdAsync(Guid.Parse(candidateId));
         }
     }
 }

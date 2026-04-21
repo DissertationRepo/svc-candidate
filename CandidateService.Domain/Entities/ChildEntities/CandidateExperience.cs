@@ -107,6 +107,31 @@ public sealed class CandidateExperience
         UpdatedAt = DateTime.UtcNow;
     }
 
+    public static CandidateExperience Load(
+        Guid id,
+        CandidateId candidateId,
+        string company,
+        string position,
+        string? description,
+        DateOnly startDate,
+        DateOnly? endDate,
+        bool isCurrent,
+        DateTime createdAt,
+        DateTime updatedAt)
+    {
+        return new CandidateExperience(
+            id,
+            candidateId,
+            company,
+            position,
+            description,
+            startDate,
+            endDate,
+            isCurrent,
+            createdAt,
+            updatedAt);
+    }
+
     private static string? Normalize(string? value)
     {
         return string.IsNullOrWhiteSpace(value) ? null : value.Trim();

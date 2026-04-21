@@ -52,6 +52,24 @@ public sealed class CandidateSkill
             DateTime.UtcNow);
     }
 
+    public static CandidateSkill Load(
+        Guid id,
+        CandidateId candidateId,
+        string name,
+        string? level,
+        int yearsOfExperience,
+        DateTime createdAt
+        )
+    {
+        return new CandidateSkill(
+            id,
+            candidateId,
+            name,
+            level,
+            yearsOfExperience,
+            createdAt);
+    }
+
     public void Update(string name, string? level, int yearsOfExperience)
     {
         if (string.IsNullOrWhiteSpace(name))
