@@ -57,5 +57,44 @@ namespace CandidateService.Application.Services
 
             return skills;
         }
+
+        public async Task<bool> UpdateCandidateSkillAsync(Guid skillId, string name, string? level, int yearsOfExperience)
+        {
+            var skillEntity = await _db.CandidateSkills.FirstOrDefaultAsync(s => s.Id == skillId);
+            if (skillEntity is null)
+            {
+                return false;
+            }
+
+            var domainSkill = CandidateSkill.Load(
+                skillEntity.Id,
+                new CandidateId(skillEntity.CandidateId),
+                skillEntity.Name,
+                skillEntity.Level,
+                skillEntity.YearsOfExperience,
+                skillEntity.CreatedAt);
+
+            domainSkill.Update(name, level, yearsOfExperience);
+
+            skillEntity.Name = domainSkill.Name;
+            skillEntity.Level = domainSkill.Level;
+            skillEntity.YearsOfExperience = domainSkill.YearsOfExperience;
+
+            await _db.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<bool> DeleteCandidateSkillAsync(Guid skillId)
+        {
+            var skillEntity = await _db.CandidateSkills.FirstOrDefaultAsync(s => s.Id == skillId);
+            if (skillEntity is null)
+            {
+                return false;
+            }
+
+            _db.CandidateSkills.Remove(skillEntity);
+            await _db.SaveChangesAsync();
+            return true;
+        }
     }
 }

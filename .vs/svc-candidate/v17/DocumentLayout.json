@@ -102,8 +102,7 @@
               "RelativeToolTip": "CandidateService.Infrastructure\\Repository\\CandidateSkillRepository.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAowDkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:51:46.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:51:46.393Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "CandidateService.Application\\Services\\CandidateSkillService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:51:35.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:51:35.48Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "CandidateService.Application\\Abstract Services\\ICandidateSkillService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:51:15.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:51:15.298Z"
             },
             {
               "$type": "Document",
@@ -141,8 +138,7 @@
               "RelativeToolTip": "CandidateService.Application\\Abstract Services\\ICandidateSkillRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:50:33.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:50:33.298Z"
             },
             {
               "$type": "Document",
@@ -154,8 +150,7 @@
               "RelativeToolTip": "CandidateService.Api\\Mappings\\SkillsResponseMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:49:19.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:49:19.761Z"
             },
             {
               "$type": "Document",
@@ -167,8 +162,7 @@
               "RelativeToolTip": "CandidateService.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:47:31.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:47:31.242Z"
             },
             {
               "$type": "Document",
@@ -180,8 +174,7 @@
               "RelativeToolTip": "CandidateService.Domain\\Entities\\ChildEntities\\CandidateSkill.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAArwD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:46:07.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:46:07.731Z"
             },
             {
               "$type": "Document",
@@ -193,8 +186,7 @@
               "RelativeToolTip": "CandidateService.Api\\Models\\SkillsResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:45:58.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:45:58.547Z"
             },
             {
               "$type": "Document",
@@ -206,8 +198,7 @@
               "RelativeToolTip": "CandidateService.Api\\Mappings\\ExperiencesResponseMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:20:45.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:20:45.168Z"
             },
             {
               "$type": "Document",
@@ -219,8 +210,7 @@
               "RelativeToolTip": "CandidateService.Api\\Models\\ExperiencesResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:20:29.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:20:29.082Z"
             },
             {
               "$type": "Document",
@@ -232,8 +222,7 @@
               "RelativeToolTip": "CandidateService.Api\\Mappings\\AddCandidateExperienceMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:20:24.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:20:24.635Z"
             },
             {
               "$type": "Document",
@@ -243,7 +232,7 @@
               "RelativeDocumentMoniker": "CandidateService.Api\\Controllers\\CandidateController.cs",
               "ToolTip": "C:\\Users\\lfodor\\OneDrive - ENDAVA\\Documents\\DissertationRepo\\svc-candidate\\CandidateService.Api\\Controllers\\CandidateController.cs",
               "RelativeToolTip": "CandidateService.Api\\Controllers\\CandidateController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAcwD0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T15:20:07.426Z",
               "EditorCaption": ""
@@ -258,8 +247,7 @@
               "RelativeToolTip": "CandidateService.Application\\Abstract Services\\ICandidateExperienceService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:19:41.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:19:41.157Z"
             },
             {
               "$type": "Document",
@@ -271,8 +259,7 @@
               "RelativeToolTip": "CandidateService.Domain\\Entities\\ChildEntities\\CandidateExperience.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAjwG0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:12:55.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:12:55.129Z"
             },
             {
               "$type": "Document",
@@ -284,8 +271,7 @@
               "RelativeToolTip": "CandidateService.Infrastructure\\Mappings\\DomainCandidateMapping.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:10:27.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:10:27.653Z"
             },
             {
               "$type": "Document",
@@ -297,8 +283,7 @@
               "RelativeToolTip": "CandidateService.Infrastructure\\Mappings\\DomainCandiateExperienceMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:09:38.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:09:38.87Z"
             },
             {
               "$type": "Document",
@@ -310,8 +295,7 @@
               "RelativeToolTip": "CandidateService.Application\\Services\\CandidateExperienceService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA5wAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:03:12.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:03:12.521Z"
             },
             {
               "$type": "Document",
@@ -323,8 +307,7 @@
               "RelativeToolTip": "CandidateService.Application\\Abstract Services\\ICandidateExperienceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T15:03:06.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T15:03:06.614Z"
             },
             {
               "$type": "Document",
@@ -336,8 +319,7 @@
               "RelativeToolTip": "CandidateService.Infrastructure\\Repository\\CandidateExperienceRepository.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAqwCoAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T13:18:51.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T13:18:51.723Z"
             }
           ]
         }

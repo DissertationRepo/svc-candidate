@@ -32,5 +32,22 @@ namespace CandidateService.Application.Services
         {
             return await _candidateExperienceRepository.GetExperienceByIdAsync(Guid.Parse(candidateId));
         }
+
+        public async Task<bool> UpdateCandidateExperienceAsync(UpdateCandidateExperienceModel candidateExperienceModel)
+        {
+            return await _candidateExperienceRepository.UpdateExperienceAsync(
+                Guid.Parse(candidateExperienceModel.Id),
+                candidateExperienceModel.Company,
+                candidateExperienceModel.Position,
+                candidateExperienceModel.Description,
+                candidateExperienceModel.StartDate,
+                candidateExperienceModel.EndDate,
+                candidateExperienceModel.EndDate is null);
+        }
+
+        public async Task<bool> DeleteCandidateExperienceAsync(string experienceId)
+        {
+            return await _candidateExperienceRepository.DeleteExperienceAsync(Guid.Parse(experienceId));
+        }
     }
 }

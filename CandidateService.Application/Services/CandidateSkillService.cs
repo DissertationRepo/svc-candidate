@@ -29,5 +29,19 @@ namespace CandidateService.Application.Services
             var domainSkills = await _candidateSkillRepository.GetSkillsById(Guid.Parse(candidateId));
             return domainSkills;
         }
+
+        public async Task<bool> UpdateCandidateSkillAsync(UpdateCandidateSkillModel candidateSkillModel)
+        {
+            return await _candidateSkillRepository.UpdateCandidateSkillAsync(
+                Guid.Parse(candidateSkillModel.Id),
+                candidateSkillModel.Name,
+                candidateSkillModel.Level,
+                candidateSkillModel.YearsOfExperience);
+        }
+
+        public async Task<bool> DeleteCandidateSkillAsync(string skillId)
+        {
+            return await _candidateSkillRepository.DeleteCandidateSkillAsync(Guid.Parse(skillId));
+        }
     }
 }

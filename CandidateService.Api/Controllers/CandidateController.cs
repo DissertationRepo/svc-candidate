@@ -63,6 +63,36 @@ namespace CandidateService.Api.Controllers
             return skills;
         }
 
+        [HttpPut("skill/update")]
+        public async Task<IActionResult> UpdateCandidateSkill([FromBody] UpdateCandidateSkill updateCandidateSkill)
+        {
+            var updateCandidateSkillModel = _mapper.Map<Application.Models.UpdateCandidateSkillModel>(updateCandidateSkill);
+            var updated = await _candidateSkillService.UpdateCandidateSkillAsync(updateCandidateSkillModel);
+            if (!updated)
+            {
+                return NotFound();
+            }
+
+            return Ok();
+        }
+
+        [HttpDelete("skill/{id}")]
+        public async Task<IActionResult> DeleteCandidateSkill(string id)
+        {
+            if (!Guid.TryParse(id, out _))
+            {
+                return BadRequest("Invalid skill ID format. Please provide a valid GUID.");
+            }
+
+            var deleted = await _candidateSkillService.DeleteCandidateSkillAsync(id);
+            if (!deleted)
+            {
+                return NotFound();
+            }
+
+            return Ok();
+        }
+
         [HttpPost("experience/add")]
         public async Task<IActionResult> AddCandidateExperience([FromBody] AddCandidateExperience addCandidateExperience)
         {
@@ -77,6 +107,36 @@ namespace CandidateService.Api.Controllers
             var domainExperiences = await _candidateExperienceService.GetCandidateExperiencesAsync(candidateId);
             var experiences = _mapper.Map<ICollection<ExperiencesResponse>>(domainExperiences);
             return experiences;
+        }
+
+        [HttpPut("experience/update")]
+        public async Task<IActionResult> UpdateCandidateExperience([FromBody] UpdateCandidateExperience updateCandidateExperience)
+        {
+            var updateCandidateExperienceModel = _mapper.Map<Application.Models.UpdateCandidateExperienceModel>(updateCandidateExperience);
+            var updated = await _candidateExperienceService.UpdateCandidateExperienceAsync(updateCandidateExperienceModel);
+            if (!updated)
+            {
+                return NotFound();
+            }
+
+            return Ok();
+        }
+
+        [HttpDelete("experience/{id}")]
+        public async Task<IActionResult> DeleteCandidateExperience(string id)
+        {
+            if (!Guid.TryParse(id, out _))
+            {
+                return BadRequest("Invalid experience ID format. Please provide a valid GUID.");
+            }
+
+            var deleted = await _candidateExperienceService.DeleteCandidateExperienceAsync(id);
+            if (!deleted)
+            {
+                return NotFound();
+            }
+
+            return Ok();
         }
     }
 }
