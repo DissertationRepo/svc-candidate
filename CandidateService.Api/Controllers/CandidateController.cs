@@ -2,12 +2,13 @@
 using CandidateService.Api.Models;
 using CandidateService.Application.Abstract_Services;
 using CandidateService.Application.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CandidateService.Api.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class CandidateController : ControllerBase
     {
         private readonly ICandidateService _candidateService;
@@ -32,6 +33,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpGet("candidate/{id}")]
+        [Authorize]
         public async Task<IActionResult> GetCandidateById(string id)
         {
             if (!Guid.TryParse(id, out var guid))
