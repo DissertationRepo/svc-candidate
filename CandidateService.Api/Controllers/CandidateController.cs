@@ -25,6 +25,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpPost("create")]
+        [Authorize]
         public async Task<IActionResult> CreateCandidate([FromBody] NewCandidate newCandidate)
         {
             var candidateCommand = _mapper.Map<CandidateService.Application.Models.CandidateModel>(newCandidate);
@@ -50,6 +51,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpPost("skill/add")]
+        [Authorize]
         public async Task<IActionResult> AddCandidateSkill([FromBody] AddCandidateSkill addCandidateSkill)
         {
             var addCandidateSkillModel = _mapper.Map<Application.Models.CandidateSkillModel>(addCandidateSkill);
@@ -58,6 +60,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpGet("skills/{candidateId}")]
+        [Authorize]
         public async Task<ICollection<SkillsResponse>> GetCandidateSkills(string candidateId)
         {
             var domainSkills = await _candidateSkillService.GetCandidateSkillsAsync(candidateId);
@@ -66,6 +69,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpPut("skill/update")]
+        [Authorize]
         public async Task<IActionResult> UpdateCandidateSkill([FromBody] UpdateCandidateSkill updateCandidateSkill)
         {
             var updateCandidateSkillModel = _mapper.Map<Application.Models.UpdateCandidateSkillModel>(updateCandidateSkill);
@@ -79,6 +83,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpDelete("skill/{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteCandidateSkill(string id)
         {
             if (!Guid.TryParse(id, out _))
@@ -96,6 +101,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpPost("experience/add")]
+        [Authorize]
         public async Task<IActionResult> AddCandidateExperience([FromBody] AddCandidateExperience addCandidateExperience)
         {
             var addCandidateExperienceModel = _mapper.Map<Application.Models.CandidateExperienceModel>(addCandidateExperience);
@@ -104,6 +110,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpGet("experiences/{candidateId}")]
+        [Authorize]
         public async Task<ICollection<ExperiencesResponse>> GetCandidateExperiences(string candidateId)
         {
             var domainExperiences = await _candidateExperienceService.GetCandidateExperiencesAsync(candidateId);
@@ -112,6 +119,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpPut("experience/update")]
+        [Authorize]
         public async Task<IActionResult> UpdateCandidateExperience([FromBody] UpdateCandidateExperience updateCandidateExperience)
         {
             var updateCandidateExperienceModel = _mapper.Map<Application.Models.UpdateCandidateExperienceModel>(updateCandidateExperience);
@@ -125,6 +133,7 @@ namespace CandidateService.Api.Controllers
         }
 
         [HttpDelete("experience/{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteCandidateExperience(string id)
         {
             if (!Guid.TryParse(id, out _))
