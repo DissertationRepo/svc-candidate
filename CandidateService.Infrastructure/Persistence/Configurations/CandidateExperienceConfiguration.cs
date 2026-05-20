@@ -52,6 +52,12 @@ namespace CandidateService.Infrastructure.Persistence.Configurations
                 builder.Property(x => x.UpdatedAt)
                     .HasColumnName("updated_at")
                     .IsRequired();
+
+                // Relationship: candidate_experiences.candidate_id -> candidates.user_id
+                builder.HasOne(x => x.Candidate)
+                       .WithMany(x => x.Experiences)
+                       .HasForeignKey(x => x.CandidateId)
+                       .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

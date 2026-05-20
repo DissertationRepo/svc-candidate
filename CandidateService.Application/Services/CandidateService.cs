@@ -32,5 +32,25 @@ namespace CandidateService.Application.Services
             var domainCandidate = _candidateRepository.GetCandidateById(id);
             return domainCandidate;
         }
+
+        public Task<IReadOnlyList<Candidate>> SearchCandidatesByNameAsync(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return Task.FromResult<IReadOnlyList<Candidate>>(Array.Empty<Candidate>());
+            }
+
+            return _candidateRepository.SearchCandidatesByName(name.Trim());
+        }
+
+        public Task<IReadOnlyList<Candidate>> SearchCandidatesByDescriptionAsync(string description)
+        {
+            if (string.IsNullOrWhiteSpace(description))
+            {
+                return Task.FromResult<IReadOnlyList<Candidate>>(Array.Empty<Candidate>());
+            }
+
+            return _candidateRepository.SearchCandidatesByDescription(description.Trim());
+        }
     }
 }

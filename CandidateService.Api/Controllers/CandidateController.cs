@@ -50,6 +50,34 @@ namespace CandidateService.Api.Controllers
             return Ok(candidate);
         }
 
+        [HttpGet("search")]
+        [Authorize]
+        public async Task<IActionResult> SearchCandidatesByName([FromQuery] string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return BadRequest("The 'name' query parameter is required.");
+            }
+
+            var domainCandidates = await _candidateService.SearchCandidatesByNameAsync(name);
+            var candidates = _mapper.Map<ICollection<CandidateModel>>(domainCandidates);
+            return Ok(candidates);
+        }
+
+        [HttpGet("search/description")]
+        [Authorize]
+        public async Task<IActionResult> SearchCandidatesByDescription([FromQuery] string description)
+        {
+            if (string.IsNullOrWhiteSpace(description))
+            {
+                return BadRequest("The 'description' query parameter is required.");
+            }
+
+            var domainCandidates = await _candidateService.SearchCandidatesByDescriptionAsync(description);
+            var candidates = _mapper.Map<ICollection<CandidateModel>>(domainCandidates);
+            return Ok(candidates);
+        }
+
         [HttpPost("skill/add")]
         [Authorize]
         public async Task<IActionResult> AddCandidateSkill([FromBody] AddCandidateSkill addCandidateSkill)

@@ -10,17 +10,12 @@ public sealed class CandidateEntityConfiguration : IEntityTypeConfiguration<Cand
     {
         builder.ToTable("candidates");
 
-        builder.HasKey(x => x.Id);
-
-        builder.Property(x => x.Id)
-            .HasColumnName("id");
+        // Use UserId as the primary key for candidates
+        builder.HasKey(x => x.UserId);
 
         builder.Property(x => x.UserId)
             .IsRequired()
             .HasColumnName("user_id");
-
-        builder.HasIndex(x => x.UserId)
-            .IsUnique();
 
         builder.Property(x => x.FirstName)
             .IsRequired()

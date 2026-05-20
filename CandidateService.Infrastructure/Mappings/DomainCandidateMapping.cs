@@ -16,7 +16,6 @@ namespace CandidateService.Infrastructure.Mappings
         {
             return new CandidateEntity
             {
-                Id = src.Id.Value,
                 UserId = src.UserId.Value,
                 FirstName = src.FullName.FirstName.ToString(),
                 LastName = src.FullName.LastName.ToString(),

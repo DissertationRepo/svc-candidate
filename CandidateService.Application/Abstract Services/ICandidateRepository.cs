@@ -6,5 +6,7 @@ namespace CandidateService.Application.Abstract_Services
     {
         Task AddCandidate(Candidate candidate);
         Task<Candidate?> GetCandidateById(Guid id);
+        Task<IReadOnlyList<Candidate>> SearchCandidatesByName(string name);
+        Task<IReadOnlyList<Candidate>> SearchCandidatesByDescription(string description);
     }
 }

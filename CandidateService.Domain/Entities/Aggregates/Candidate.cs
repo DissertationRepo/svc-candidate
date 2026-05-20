@@ -3,10 +3,9 @@ using CandidateService.Domain.ValueObjects;
 
 namespace CandidateService.Domain.Entities.Aggregates;
 
-public sealed class Candidate
-{
-    public CandidateId Id { get; }
-    public UserId UserId { get; }
+    public sealed class Candidate
+    {
+        public UserId UserId { get; }
     public FullName FullName { get; private set; }
     public Email Email { get; private set; }
     public PhoneNumber PhoneNumber { get; private set; }
@@ -16,7 +15,6 @@ public sealed class Candidate
     public DateTime UpdatedAt { get; private set; }
 
     public Candidate(
-        CandidateId id,
         UserId userId,
         FullName fullName,
         Email email,
@@ -24,7 +22,6 @@ public sealed class Candidate
         string? summary,
         Location? location)
     {
-        Id = id;
         UserId = userId;
         FullName = fullName ?? throw new ArgumentNullException(nameof(fullName));
         Email = email ?? throw new ArgumentNullException(nameof(email));
@@ -45,7 +42,6 @@ public sealed class Candidate
         string? location)
     {
         return new Candidate(
-            CandidateId.New(),
             new UserId(userId),
             new FullName(firstName, lastName),
             new Email(email),

@@ -2,7 +2,6 @@
 
 public sealed class CandidateEntity
 {
-    public Guid Id { get; set; }
     public Guid UserId { get; set; }
     public string FirstName { get; set; } 
     public string LastName { get; set; }
@@ -13,4 +12,5 @@ public sealed class CandidateEntity
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public ICollection<CandidateSkillEntity> Skills { get; set; } = new List<CandidateSkillEntity>();
+    public ICollection<CandidateExperienceEntity> Experiences { get; set; } = new List<CandidateExperienceEntity>();
 }
